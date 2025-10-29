@@ -1,0 +1,25 @@
+/* index.css */
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f5f7fa;
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 100vh;
+  color: #333;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+button {
+  transition: 0.2s;
+}
+
+button:hover {
+  transform: scale(1.05);
+}
